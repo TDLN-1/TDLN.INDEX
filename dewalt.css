@@ -1,0 +1,192 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del Header */
+header {
+    background-color: #ffcc00;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del Hero */
+#hero {
+    background: url('https://suministrosviper.com/media/2023/07/Dewalt_Powerstack_01.jpg') no-repeat center center/cover;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1500px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#hero button:hover {
+    background-color: #555;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#quienes-somos .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#quienes-somos .img-container {
+    flex: 1;
+}
+
+#quienes-somos img {
+    max-width: 100%;
+}
+
+#quienes-somos .texto {
+    flex: 2;
+}
+
+.color-acento {
+    color: #ffcc00;
+}
+
+/* Estilos de los productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.carta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.carta img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carta h3 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.carta p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.carta button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carta button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.carta:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos de las características */
+#caracteristicas ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+#caracteristicas li {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Estilos del Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   
+}
+
+footer p {
+    margin: 0;
+    
+}
+button{
+    padding: 15px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
